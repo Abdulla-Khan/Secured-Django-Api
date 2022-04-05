@@ -3,8 +3,8 @@ from rest_framework.generics import ListAPIView
 from rest_framework.generics import CreateAPIView
 from rest_framework.generics import DestroyAPIView
 from rest_framework.generics import UpdateAPIView
-from todo.serializers import TodoSerializer
-from todo.models import Todo
+from Todo.serializers import TodoSerializer
+from Todo.models import Todo
 
 # Create your views here.
 class ListTodoAPIView(ListAPIView):
